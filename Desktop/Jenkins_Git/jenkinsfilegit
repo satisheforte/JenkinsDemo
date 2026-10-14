@@ -1,0 +1,13 @@
+pipeline{
+    agent any
+    environment{
+        Tool = 'Jenkins'
+    }
+    stages{
+        stage("Step -- Cool"){
+                steps{
+                    echo "\n Hello World $Tool\n\n\n\n\n\n"
+                }
+        }
+    }
+}
