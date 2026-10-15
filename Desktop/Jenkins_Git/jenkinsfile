@@ -2,9 +2,13 @@ pipeline{
 	agent any
 	stages{
 		stage("Step - 1"){
-		steps{											echo "This script run from Github!!!!!"
-		}
+		steps{											
+			
+			echo "This script run from Github!!!!!"
+			echo "This is second line 15th October 2026"
+			echo "This is Third line of code 15th October 2026!!!!!!!!!!!"
+		
+			}
 		}
 	}
-
 }
